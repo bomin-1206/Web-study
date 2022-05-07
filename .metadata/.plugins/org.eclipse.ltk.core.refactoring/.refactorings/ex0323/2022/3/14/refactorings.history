@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ex0323/src/main/webapp/insesrtproc.jsp&apos; to &apos;insertproc.jsp&apos;" description="Rename resource &apos;insesrtproc.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/insesrtproc.jsp" name="insertproc.jsp" stamp="1648615070959" updateReferences="true"/>
+</session>
