@@ -1,29 +1,23 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+  <meta charset="UTF-8">
+  <title>Insert title here</title>
+  <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans:400" rel="stylesheet">
+  <link href="./index.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
 </head>
 <body>
-<%@ include file="head.jsp" %>
-<h1>index.jsp</h1>
-<%
-    String username=(String)session.getAttribute("username");
-    if(username == null) {
-%>
-<form action="loginproc.jsp">
-    id <input name="username" type="text"/>
-    pw <input name="password" type="text"/>
-    <input type="submit" value="로그인"/>
-</form>
-<%
-}else{
-%>
-<h1><%=username%> 안녕하세요...</h1>
-<a href="logout.jsp">로그아웃</a>
-<%
-    }
-%>
-<!-- 로그인화면 구현 -->
+<%@ include file="nav.jsp" %>
+<div>
+  <h1>Main</h1>
+  <p>
+    안녕하세요<br>
+    2학년 1반 1번 강보민이 만든 로그인페이지!<br>
+    오신걸 환영합니당><
+  </p>
+</div>
 </body>
 </html>

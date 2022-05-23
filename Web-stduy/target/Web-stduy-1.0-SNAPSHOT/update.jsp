@@ -1,19 +1,32 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<%@ page import="com.example.webstduy.MemberDBManager" %>
+<%@ page import="com.example.webstduy.Member" %>
+<%
+    String id = request.getParameter("id");	// 주소줄에 있는 24,25
+    MemberDBManager mdm = new MemberDBManager();
+    Member member = mdm.doselectone(id);
+%>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Title</title>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans:400" rel="stylesheet">
+    <link href="./mystyle.css" rel="stylesheet">
 </head>
 <body>
-<%@ include file="head.jsp"%>
-<h1>update.jsp</h1>
-<form action="updateproc.jsp">
-    <input type="hidden" name="id" value="<%=request.getParameter("id")%>" />
-    username <input type="text" name="username"/><br/>
-    password <input type="text" name="password"/><br/>
-    성별
-    남<input type="radio" name="gender" value="남"checked/>
-    여<input type="radio" name="gender" value="여"/>
-    <input type="submit" value="저장"/>
-</form>
-<body>
+<%@ include file="nav.jsp" %>
+<div class="main">
+    <h1>update페이지</h1>
+    <form action="updateproc.jsp">
+        <input type="hidden" name="id" value="<%=id%>" />
+        username<br>
+        <input type="text" name="username" value="<%=member.getUsername()%>" /><br>
+        password<br>
+        <input type="text" name="password" value="<%=member.getPassword()%>" /><br>
+        <input type="submit" value="수정"/>
+    </form>
+</div>
+</body>
 </html>
