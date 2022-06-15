@@ -19,7 +19,6 @@ public class BoardManager {
         return con;
     }
 
-
     public List<Board> doselect() {
         List<Board> list = new ArrayList<>();
         Connection con = null;
@@ -66,6 +65,48 @@ public class BoardManager {
 
         } catch(Exception e) {
             e.printStackTrace();
+        }
+        return true;
+    }
+
+    public Board doselectrow(int idx) {
+        Board board = new Board();
+        Connection con = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+        try {
+            con = connect();
+            pstmt = con.prepareStatement("select * from board where idx = ?");
+            pstmt.setInt(1,idx);
+            rs = pstmt.executeQuery();
+            while(rs.next()) {
+                board.setIdx(rs.getInt("idx"));
+                board.setContent(rs.getString("content"));
+                board.setCount(rs.getInt("count"));
+                board.setEmail(rs.getString("email"));
+                board.setName(rs.getString("name"));
+                board.setTitle(rs.getString("title"));
+                board.setWdate(rs.getString("wdate"));
+                board.setPhone(rs.getString("phone"));
+            }
+        } catch(Exception e) {
+            e.printStackTrace();
+        } finally {
+        }
+        return board;
+    }
+
+    public boolean dodelete(int idx) {
+        Connection con = null;
+        PreparedStatement pstmt = null;
+        try {
+            con = connect();
+            pstmt = con.prepareStatement("delete from board where idx=?");
+            pstmt.setInt(1,idx);
+            pstmt.executeUpdate();
+        } catch(Exception e) {
+            e.printStackTrace();
+            return false;
         }
         return true;
     }

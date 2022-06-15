@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
-<%@ page import="com.dg.board.Board"%>
+<%@ page import="com.example.noticeboard_study.Board"%>
 <%@ page import="com.dg.board.BoardManager"%>
 <%@ page import="java.util.List" %>
 
@@ -35,13 +35,13 @@
                 <% for(int i=0; i<list.size(); i++) {
                     Board board = list.get(i);
                 %>
-                    <tr>
-                        <th scope="row"><%=board.getIdx()%></th>
-                        <td><a href="view.jsp?idx=<%=board.getIdx()%>"><%=board.getTitle()%></a></td>
-                        <td><%=board.getName()%></td>
-                        <td><%=board.getWdate()%></td>
-                        <td><%=board.getCount()%></td>
-                    </tr>
+                <tr>
+                    <th scope="row"><%=board.getIdx()%></th>
+                    <td><a href="view.jsp?idx=<%=board.getIdx()%>"><%=board.getTitle()%></a></td>
+                    <td><%=board.getName()%></td>
+                    <td><%=board.getWdate()%></td>
+                    <td><%=board.getCount()%></td>
+                </tr>
                 <% } %>
                 </tbody>
             </table>
