@@ -39,6 +39,7 @@ public class MemberDBManager {
 		}
 		return list;
 	}
+
 	public void dodelete(String []ids){
 		Connection con = null;
 		PreparedStatement pstmt = null;
