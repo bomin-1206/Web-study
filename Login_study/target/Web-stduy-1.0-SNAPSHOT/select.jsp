@@ -12,9 +12,6 @@
 <html>
 <head>
     <title>JSP - Hello World</title>
-    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans:400" rel="stylesheet">
-    <link href="./login.css" rel="stylesheet">
-    <link href="./style.css" rel="stylesheet">
 </head>
 <body>
 <%@ include file="nav.jsp" %>
