@@ -10,75 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ce581b6-68f7-49b4-ab4d-177dd2231705" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Login_study/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homepage/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homepage_study/noticeboard_study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/notice_board_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/notice_board_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/2101강보민로그인.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/java/com/example/webstduy/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/java/com/example/webstduy/MemberDBManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/delete.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/insert.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/insert.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/insertproc.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/loginproc.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/logout.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/nav.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/select.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/src/main/webapp/updateproc.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login_study/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/WEB-INF/classes/com/example/webstduy/MemberDBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/WEB-INF/classes/com/example/webstduy/MemberDBManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/css/login.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/insert.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/insert.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/login.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/select.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/select.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/select.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Login_study/target/Web-stduy-1.0-SNAPSHOT/update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Login_study/target/classes/com/example/webstduy/MemberDBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Login_study/target/classes/com/example/webstduy/MemberDBManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/noticeboard_study_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/noticeboard_study_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2101강보민게시판.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homepage/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/noticeboard_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/noticeboard_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/noticeboard_study/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/noticeboard_study/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/noticeboard_study/BoardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/noticeboard_study/BoardManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/delete.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/insertproc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/insertproc.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/updateproc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/updateproc.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/WEB-INF/classes/com/example/noticeboard_study/Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/WEB-INF/classes/com/example/noticeboard_study/BoardManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.19.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/board.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/css/board.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/delete.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/head.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/insert.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/insertproc.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/nav.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/updateproc.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/noticeboard_study-1.0-SNAPSHOT/view.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../homepage_study" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/활동/2학년/웹프/2101강보민게시판" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -132,19 +76,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="noticeboard_study" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="noticeboard_study" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.59" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.59" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="notice_board:war exploded">
@@ -243,6 +174,10 @@
       <workItem from="1656250701911" duration="4000" />
       <workItem from="1656250817094" duration="113000" />
       <workItem from="1656311003263" duration="3548000" />
+      <workItem from="1656468746892" duration="307000" />
+      <workItem from="1656478259097" duration="60000" />
+      <workItem from="1656478416431" duration="138000" />
+      <workItem from="1656478577758" duration="5000" />
     </task>
     <servers />
   </component>
